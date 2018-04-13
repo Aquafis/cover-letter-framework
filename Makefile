@@ -12,5 +12,5 @@ clean: prune
 prune:
 	@rm -f *.aux *.fdb_latexmk *.fls *.log *.out *.gz
 
-.PHONY: test
-test: test-cover-letter.pdf
+.PHONY: example
+example: example-cover-letter.pdf

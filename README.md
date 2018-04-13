@@ -18,7 +18,7 @@ The build using one of the methods below.
 
 ### Using GNU Make and TeX Live
 ```bash
-make test
+make example
 ```
 
 Additional rules have been included.
@@ -28,8 +28,8 @@ Additional rules have been included.
     - Removes all *.aux, *.fdb_latexmk, *.fls, *.log, *.out, and *.gz files.  Convenient if you aren't using references or other complex Latex features and only care about the generated PDF file.
 - `clean`
     - Performs the `prune` rule and also removes all *.pdf files.
-- `test`
-    - Builds the provided _test-cover-letter.tex_ file.  Useful for experimentation with different variables and functionality within Latex without risk of overwriting your important cover letters.  Used in the provided example above.
+- `example`
+    - Builds the provided example-cover-letter.tex_ file.  Useful for experimentation with different variables and functionality within Latex without risk of overwriting your important cover letters.  Used in the provided example above.
 - `xxx.pdf`
     - Builds a PDF from the specified _xxx.tex_ file.  Note, _xxx_ in this case is not literal.
 
@@ -37,7 +37,7 @@ Additional rules have been included.
 You can also build the project manually using your preferred Tex software.  Here is an example of how to build the project on the command line using `pdflatex`.
 
 ```bash
-pdflatex test-cover-letter.tex
+pdflatex example-cover-letter.tex
 ```
 
 ## Editing
