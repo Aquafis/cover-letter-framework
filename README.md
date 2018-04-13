@@ -42,3 +42,8 @@ pdflatex test-cover-letter.tex
 
 ## Editing
 If you're looking for a rich developer-friendly editor to write your cover letter, consider using [Visual Studio Code](https://code.visualstudio.com/) with the [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop) plugin.
+
+## Signature
+The provided example signature was borrowed from here http://itlaunchpad.blogs.uua.org/uncategorized/digitize-your-signature-to-save-time-and-paper/
+
+I do not recommend you include this signature with your own cover letter.  
