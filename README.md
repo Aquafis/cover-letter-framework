@@ -7,6 +7,9 @@ For your convenience, a [GNU Make](https://www.gnu.org/software/make/) file has 
 ### Latex Package Dependencies
 - [graphicx](https://ctan.org/pkg/graphicx?lang=en)
 
+### Spell Checking
+To run the provided spell checking command, you will need to install [GNU Aspell](http://aspell.net/).
+
 ## Usage
 To start, clone this repository.
 
@@ -30,6 +33,8 @@ Additional rules have been included.
     - Performs the `prune` rule and also removes all *.pdf files.
 - `example`
     - Builds the provided example-cover-letter.tex_ file.  Useful for experimentation with different variables and functionality within Latex without risk of overwriting your important cover letters.  Used in the provided example above.
+- `spell-check`
+    - Checks the spelling of all *.tex files under the current directory and all sub-directories recursively using GNU Aspell.
 - `xxx.pdf`
     - Builds a PDF from the specified _xxx.tex_ file.  Note, _xxx_ in this case is not literal.
 

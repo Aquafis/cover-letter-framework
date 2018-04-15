@@ -4,6 +4,10 @@
 .PHONY: all
 all: $(patsubst %.tex,%.pdf,$(wildcard *.tex))
 
+.PHONY: spell-check
+spell-check:
+	find . -name \*.tex -exec aspell --dont-backup --mode=tex -c {} \;
+
 .PHONY: clean
 clean: prune
 	@rm -f *.pdf
